@@ -1,0 +1,19 @@
+@import url(/styles/core.css);
+@import url(/styles/reset.css);
+@import url(/styles/variables.css);
+@import url(/styles/sections/header.css);
+@import url(/styles/sections/registration/categories.css);
+@import url(/styles/sections/registration/services.css);
+@import url(/styles/sections/registration/registration.css);
+@import url(/styles/sections/registration/tabs.css);
+@import url(/styles/sections/premium.css);
+@import url(/styles/card.css);
+@import url(/styles/buttons.css);
+@import url(/styles/sections/stock/card-stock.css);
+@import url(/styles/sections/stock/stock.css);
+@import url(/styles/sections/popular.css);
+@import url(/styles/sections/catalog.css);
+@import url(/styles/sections/offer.css);
+@import url(/styles/sections/reviews.css);
+@import url(/styles/sections/footer.css);
+

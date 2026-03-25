@@ -1,0 +1,44 @@
+.offer{
+    padding: 0 var(--pading-40px);
+}
+.offer__conatainer{
+    background-color: var(--text-color-dark-blue);
+    border-radius: var(--border-radius-10px);
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer__text{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-24px);
+    color: var(--text-color-white);
+    width: 100%;
+    max-width: 540px;
+}
+.offer__title{
+   color: var(--text-color-white); 
+}
+.offer__description{
+    line-height: 150%;
+    color: var(--color-gray);
+}
+.offer__button{
+    width: 100%;
+    max-width: 257px;
+}
+@media (max-width: 760px) {
+ .offer__conatainer{
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}   
+.offer__text{
+align-items: center;
+
+}
+.offer__title, .offer__description{
+text-align: center;
+}
+}

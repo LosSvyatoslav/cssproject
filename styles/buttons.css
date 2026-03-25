@@ -1,0 +1,62 @@
+.round-buttons{
+display: flex;
+gap: var(--gap-16px);
+}
+.round-buttons__arrow{
+ all: unset;
+  cursor: pointer;
+}
+.button{
+    font-weight: var(--font-weight-600);
+    border-radius: 40px;
+}
+.button--orange{
+    background-color: var(--color-orange);
+    border: none;
+    color: var(--text-color-white);
+    padding: 14px 0;
+    transition: var(--transition-03s);
+      height: var(--height-48px);
+       width: 100%;
+    max-width: 257px;
+    min-width: 105px;
+}
+
+.button--orange:hover{
+    background-color: var(--color-oragne-bright);
+}
+.button--none-border{
+    border: none;
+    background: transparent;
+    color: var(--color-orange);
+    transition: var(--transition-03s); 
+}
+.button--none-border:hover{
+color: red;
+}
+.button--orange-border{
+   background: transparent;
+   border: 1px solid var( --color-orange);
+   color: var( --color-orange);
+    width: 100%;
+    max-width: 257px;
+      height: var(--height-48px);
+      margin: 20px auto 0;
+      display: block;
+          transition: var(--transition-03s);
+}
+.button--orange-border:hover{
+    background-color: var(--color-orange);
+    color: var(--text-color-white);
+}
+.button--bright-orange{
+      height: var(--height-48px);
+      background-color: rgba(255, 243, 229, 1);
+      color:var(--color-orange);
+      border: none;
+      transition: var(--transition-03s);
+}
+.button--bright-orange:hover{
+    background-color: var(--color-orange);
+    color:  rgba(255, 243, 229, 1);
+}

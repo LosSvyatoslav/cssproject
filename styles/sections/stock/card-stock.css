@@ -1,0 +1,55 @@
+.card--stock{
+box-shadow: 0 4px 10px rgba(106, 99, 118, 0.1);
+}
+.card__images--stock{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.card__discount{
+    color: var(--text-color-white);
+    font-size: 20px;
+    background-color: rgba(243, 22, 78, 1);
+    align-self: flex-start;
+    padding: 10px;
+    border-radius: var(--border-radius-4px);
+    font-weight: 600;
+    align-items: center;
+}
+.card__information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__views{
+    display: flex;
+    gap: var(--gap-4px);
+    color: var(--tex-color-dark-blue);
+    font-size: 14px;
+    align-items: center;
+}
+.card__views-icon{
+    width: 20px;
+    height: 20px;
+}
+.card__date{
+    color:var(--text-color-blue);
+}
+.card__date, .card__views{
+      padding: 8px; 
+      background-color: var(--color-gray);
+          border-radius: var(--border-radius-4px);
+          font-weight: var(--font-weight-500);
+}
+.card__service-title{
+    font-size: var(--font-size-20px);
+    font-weight: var(--font-weight-600);
+    color: var(--tex-color-dark-blue);
+}
+.card__company-title{
+    font-size: var(--font-size-18px);
+}
+.card__text--stock{
+    display: flex;
+    gap: var(--gap-8px);
+}

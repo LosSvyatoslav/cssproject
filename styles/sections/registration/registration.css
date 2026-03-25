@@ -1,0 +1,33 @@
+.registration{
+    margin-top: 64px;
+}
+
+.registration__title--grey{
+    color: var(--text-color-blue);
+}
+
+.registration__searchbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.registration__searchbar-icon{
+    position: absolute;
+    left: 24px;
+}
+
+.registration__searchbar-string{
+    width: 100%;
+    padding-left: 53px;
+    border: 1px solid rgba(232, 232, 232, 1);
+    border-radius: 68px;
+    height: var(--height-48px);
+}
+.registration__searchbar-string::placeholder{
+    color: rgba(32, 38, 76, 1);
+
+}
+.registration__searchbar{
+    width: 100%;
+    max-width: 408px;
+}
